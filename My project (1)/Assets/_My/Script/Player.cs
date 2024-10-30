@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
     {
         moveCnt++;
         MoveDirection();
-        if (isFailTurn())//Àß¸øµÈ ¹æÇâ °¡¸é »ç¸Á Ã³¸®
+        if (isFailTurn())//ì˜ëª»ëœ ë°©í–¥ ê°€ë©´ ì‚¬ë§ ì²˜ë¦¬
         {
             anim.SetBool("Die", true);
 
@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
         if (moveCnt > 5)
         {
             RespawnStair();
-            //°è´Ü ½ºÆù 
+            //ê³„ë‹¨ ìŠ¤í° 
         }
     }
 
@@ -94,3 +94,5 @@ public class Player : MonoBehaviour
         }
     }
 }
+
+/*??????????????????????????????????????????????????*/
